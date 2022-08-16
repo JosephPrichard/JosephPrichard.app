@@ -1,0 +1,284 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 17px;
+    overflow-x: hidden;
+    color: rgb(225,225,225);
+    background-color: rgb(45,49,54);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.Display {
+    border-radius: 4px;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    padding-top: 20px;
+}
+
+.TopBanner {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(34,37,41);
+}
+
+@media (max-width: 700px) {
+    .TopBanner {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.BannerLeft {
+    flex: 0.4;
+    flex-direction: row;
+    text-align: left;
+}
+
+.BannerRight {
+    flex: 0.6;
+    flex-direction: row;
+    text-align: right;
+}
+
+@media (max-width: 500px) {
+    .BannerLeft {
+        display: none;
+    }
+
+    .BannerRight {
+        flex: 1;
+        text-align: center;
+    }
+}
+
+.ProfilePic {
+    width: 50px;
+    height: 50px;
+}
+
+.Highlight {
+    color: skyblue;
+}
+
+.Highlight:hover {
+    text-decoration: underline;
+}
+
+.Element {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.BottomBanner {
+    color: darkgrey;
+    margin-top: 110px;
+    min-height: 60px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.Error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    font-size: 35px;
+}
+
+.Contacts {
+    font-size: 19px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Contact {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.CenteredText {
+    text-align: center;
+}
+
+.SkillsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 100px 100px;
+}
+
+@media (max-width: 1000px) {
+    .SkillsWrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.SkillText {
+    width: 60%;
+    margin: auto;
+}
+
+.SkillPanel {
+    text-align: center;
+    padding: 60px 10% 0;
+    width: 30%;
+}
+
+@media (max-width: 1000px) {
+    .SkillPanel {
+        padding: 60px 10% 0;
+        width: 80%;
+    }
+}
+
+.Skill {
+    font-size: 15px;
+    padding: 5px 8px;
+    border-radius: 8px;
+    border-color: skyblue;
+    border-width: 2px;
+    border-style: solid;
+    margin: 5px;
+    width: fit-content;
+    display: inline-block;
+}
+
+.ProjectWrapper {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Indented {
+    margin-left: 10px;
+}
+
+.BufferTitle {
+    margin-top: 60px;
+}
+
+.ProjectPanel {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(34,37,41);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33% - 40px - 20px);
+}
+
+@media (max-width: 1100px) {
+    .ProjectPanel {
+        width: calc(50% - 40px - 20px);
+    }
+}
+
+@media (max-width: 700px) {
+    .ProjectPanel {
+        width: calc(100% - 40px - 20px);
+    }
+}
+
+.ProjectTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Date {
+    color: skyblue;
+}
+
+.ProjectContent {
+    margin-bottom: 10px;
+}
+
+.ProjectLinks {
+    margin-top: auto;
+}
+
+.ProjectTags {
+    margin-top: 15px;
+}
+
+.ProjectTag {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    background-color: rgb(50,54,59);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(90,90,90);
+    width: fit-content;
+}
+
+.LinkButton {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding: 7px 10px;
+    border-radius: 4px;
+    background-color: rgb(50,54,59);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(90,90,90);
+    width: fit-content;
+}
+
+.LinkButton:hover {
+    border-color: rgb(120,120,120);
+}
+
+.SeeMoreButton {
+    cursor: pointer;
+    background-color: rgb(50,54,59);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(90,90,90);
+    width: fit-content;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+.SeeMoreButton:hover {
+    border-color: rgb(120,120,120);
+}
+
+.WidgetBotText {
+    margin-top: 20px;
+    color: rgb(120,120,120);
+}
+
+.Widget {
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(20,20,20);
+}
