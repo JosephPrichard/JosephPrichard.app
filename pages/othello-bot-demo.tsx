@@ -19,12 +19,14 @@ const OthelloBotDemoPage: NextPage = () => {
                     Discord Bots do not listen to other discord bots, so to use my bot you will need
                     to install it and add it to your server.
                 </p>
-                <iframe
-                    className="Widget"
-                    src="https://e.widgetbot.io/channels/1002390410959798343/1002390410959798346"
-                    height="600"
-                    width="90%"
-                />
+                <div className="WidgetWrapper">
+                    <iframe
+                        className="Widget"
+                        src="https://e.widgetbot.io/channels/1002390410959798343/1002390410959798346"
+                        height="100%"
+                        width="100%"
+                    />
+                </div>
                 <div className="WidgetBotText">
                     Widget created with WidgetBot.io
                 </div>

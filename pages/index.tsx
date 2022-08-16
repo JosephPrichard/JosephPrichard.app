@@ -31,7 +31,6 @@ const IndexPage: NextPage<Props> = ({ projects }: Props) => {
                 </p>
                 <p>
                     This website is a portfolio to showcase the projects I've created, and the tech stack I keep up to date on!
-                    I've also recently begun to enjoy technical writing and frequently publish blog posts.
                 </p>
                 <h2 className="Indented BufferTitle">
                     Side Projects

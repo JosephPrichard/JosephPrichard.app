@@ -272,6 +272,11 @@ a {
     border-color: rgb(120,120,120);
 }
 
+.WidgetWrapper {
+    height: 75vh;
+    width: 85%;
+}
+
 .WidgetBotText {
     margin-top: 20px;
     color: rgb(120,120,120);
