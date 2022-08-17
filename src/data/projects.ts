@@ -2,19 +2,19 @@ import { Project } from "./types";
 
 export const projects: Project[] = [
     {
+        title: "Pantheon",
+        year: "2022-08-01",
+        desc: "A social media website similar to Reddit where users can make posts and comments.",
+        source: "https://github.com/JosephPrichard/Pantheon",
+        tags: ["Typescript", "React", "Next.js", "Nest.js", "MikroOrm", "PostgreSQL"]
+    },
+    {
         title: "OthelloBot",
         year: "2022-06-01",
         desc: "A Discord bot for users to play Othello against other players or an AI.",
         source: "https://github.com/JosephPrichard/OthelloBot",
         demo: "/othello-bot-demo",
         tags: ["Java", "Hibernate", "JPA", "PostgreSQL"]
-    },
-    {
-        title: "Pantheon",
-        year: "2022-08-01",
-        desc: "A social media website similar to Reddit where users can make posts and comments.",
-        source: "https://github.com/JosephPrichard/Pantheon",
-        tags: ["Typescript", "React", "Next.js", "Nest.js", "MikroOrm", "PostgreSQL"]
     },
     {
         title: "Pathfinder",
@@ -31,13 +31,6 @@ export const projects: Project[] = [
         source: "https://github.com/JosephPrichard/ChessLite",
         demo: "https://www.youtube.com/watch?v=m_j5ejDA-hc",
         tags: ["Java", "JavaFx"]
-    },
-    {
-        title: "AirlineRouter",
-        year: "2022-03-01",
-        desc: "Routing application to find the most optimal flight paths between two cities.",
-        source: "https://github.com/JosephPrichard/AirlineRouter",
-        tags: ["C++"]
     },
     {
         title: "SlidingPuzzle",

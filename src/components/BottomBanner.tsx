@@ -4,7 +4,7 @@ const BottomBanner = () => {
     return (
         <div className="BottomBanner">
             <div>
-                Made by Joseph Prichard
+                © 2022 Joseph Prichard
             </div>
         </div>
     );
