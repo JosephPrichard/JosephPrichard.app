@@ -33,6 +33,20 @@ export const projects: Project[] = [
         tags: ["Java", "JavaFx"]
     },
     {
+        title: "AirlineRouter",
+        year: "2022-04-01",
+        desc: "A program to calculate routes for an airline company.",
+        source: "https://github.com/JosephPrichard/AirlineRouter",
+        tags: ["C++"]
+    },
+    {
+        title: "DataStructures.net",
+        year: "2021-02-01",
+        desc: "Efficient implementations of some common abstract data structures.",
+        source: "https://github.com/JosephPrichard/DataStructures.net",
+        tags: ["C#"]
+    },
+    {
         title: "SlidingPuzzle",
         year: "2020-04-01",
         desc: "An AI to solve the sliding puzzle problem using the shortest number of steps.",
