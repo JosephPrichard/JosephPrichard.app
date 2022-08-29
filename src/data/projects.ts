@@ -4,7 +4,7 @@ export const projects: Project[] = [
     {
         title: "Pantheon",
         year: "2022-08-01",
-        desc: "A social media website similar to Reddit where users can make posts and comments.",
+        desc: "A message board where users can make posts and engage in a tree structured comment system.",
         source: "https://github.com/JosephPrichard/Pantheon",
         tags: ["Typescript", "React", "Next.js", "Nest.js", "MikroOrm", "PostgreSQL"]
     },
