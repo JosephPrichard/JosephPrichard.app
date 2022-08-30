@@ -16,7 +16,7 @@ const ProjectsPanel = ({ projects, showCount }: Props) => {
         <div className="ProjectWrapper">
             {projects.map((project, i) => {
                 return (
-                    <ProjectPanel project={project}/>
+                    <ProjectPanel key={i} project={project}/>
                 );
             })}
         </div>

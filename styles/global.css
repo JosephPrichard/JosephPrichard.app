@@ -287,3 +287,27 @@ a {
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(20,20,20);
 }
+
+@keyframes cursor-blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.AnimatedTitleCursor {
+    content: "";
+    width: 4px;
+    height: 32px;
+    display: inline-block;
+    background-color: rgb(225,225,225);
+    animation: cursor-blink 0.65s  cubic-bezier(1,0,0,1) infinite;
+}
+
+.AnimatedTitle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

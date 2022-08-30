@@ -7,6 +7,7 @@ import { Project } from "../src/data/types";
 import ProjectsPanel from "../src/components/ProjectsPanel";
 import Link from "next/link";
 import BottomBanner from "../src/components/BottomBanner";
+import AnimatedTitle from "../src/components/AnimatedTitle";
 
 interface Props {
     projects: Project[];
@@ -18,15 +19,13 @@ const IndexPage: NextPage<Props> = ({ projects }: Props) => {
             <NextSeo title="Home | Joseph Prichard"/>
             <TopBanner/>
             <div className="Display">
-                <h1>
-                    Hi, I'm Joseph Prichard!
-                </h1>
+                <AnimatedTitle finalText="Hi, I'm Joseph Prichard!"/>
                 <h3>
                     I'm a Software Engineer and Computer Scientist attending University of Texas at Dallas as a Junior.
                 </h3>
                 <p>
                     I've been a passionate programmer and an avid follower of technology for 4+ years.
-                    I'm interested in many topics ranging from web development to computer theory to operating systems.
+                    I'm interested in many topics ranging from web development to computer theory to database systems.
                     I also love learning new languages and programming paradigms!
                 </p>
                 <p>

@@ -2,6 +2,20 @@ import { SkillGroup } from "./types";
 
 export const groups: SkillGroup[] = [
     {
+        title: "Frontend",
+        type: "layout",
+        skills: [
+            "React",
+            "Next.js",
+            "HTML/CSS",
+            "React Router",
+            "Mantine",
+            "JavaFx",
+            "Swing",
+            "JSP"
+        ]
+    },
+    {
         title: "Backend",
         type: "server",
         skills: [
@@ -17,18 +31,6 @@ export const groups: SkillGroup[] = [
         ]
     },
     {
-        title: "Frontend",
-        type: "layout",
-        skills: [
-            "React",
-            "Next.js",
-            "React Router",
-            "Mantine",
-            "JavaFx",
-            "JSP"
-        ]
-    },
-    {
         title: "Languages",
         type: "code",
         skills: [
@@ -37,14 +39,14 @@ export const groups: SkillGroup[] = [
             "Javascript",
             "C/C++",
             "C#",
-            "Go",
-            "HTML/CSS"
+            "Go"
         ]
     },
     {
         title: "Database",
         type: "database",
         skills: [
+            "SQL",
             "PostgreSQL",
             "MySQL",
             "Redis",
