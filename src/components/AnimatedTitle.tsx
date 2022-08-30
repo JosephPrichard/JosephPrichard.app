@@ -33,7 +33,7 @@ const AnimatedTitle = ({ finalText }: Props) => {
                 <span
                     className="AnimatedTitleCursor"
                     style={{
-                        display: text.length < finalText.length ? "inline-block" : "none"
+                        // display: text.length < finalText.length ? "inline-block" : "none"
                     }}
                 />
             </h1>

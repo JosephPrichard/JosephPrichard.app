@@ -288,12 +288,12 @@ a {
     box-shadow: 0 0 10px rgb(20,20,20);
 }
 
-@keyframes cursor-blink {
-    from {
-        opacity: 1;
-    }
-    to {
+@keyframes blink {
+    50% {
         opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
 
@@ -303,7 +303,7 @@ a {
     height: 32px;
     display: inline-block;
     background-color: rgb(225,225,225);
-    animation: cursor-blink 0.65s  cubic-bezier(1,0,0,1) infinite;
+    animation: blink 1s linear infinite alternate;
 }
 
 .AnimatedTitle {
