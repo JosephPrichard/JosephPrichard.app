@@ -6,7 +6,7 @@ export const projects: Project[] = [
         year: "2022-08-01",
         desc: "A message board where users can make posts and engage in a tree structured comment system.",
         source: "https://github.com/JosephPrichard/Pantheon",
-        tags: ["Typescript", "React", "Next.js", "Nest.js", "MikroOrm", "PostgreSQL"]
+        tags: ["Typescript", "React", "Next.js", "Nest.js", "SQL"]
     },
     {
         title: "OthelloBot",
@@ -14,7 +14,7 @@ export const projects: Project[] = [
         desc: "A Discord bot for users to play Othello against other players or an AI.",
         source: "https://github.com/JosephPrichard/OthelloBot",
         demo: "/othello-bot-demo",
-        tags: ["Java", "Hibernate", "JPA", "PostgreSQL"]
+        tags: ["Java", "Hibernate", "SQL"]
     },
     {
         title: "Pathfinder",

@@ -18,7 +18,16 @@ const ProjectPanel = ({ project }: Props) => {
             <div className="ProjectContent">
                 { project.desc }
             </div>
-            <div className="ProjectLinks">
+            <div className="ProjectBottom">
+                <div className="ProjectTags">
+                    {project.tags.map((tag, i) => {
+                        return (
+                            <div key={i} className="ProjectTag">
+                                { tag }
+                            </div>
+                        );
+                    })}
+                </div>
                 {!project.source || <ButtonLink href={project.source} title="Source"/>}
                 {!project.demo || <ButtonLink href={project.demo} title="Demo"/>}
             </div>

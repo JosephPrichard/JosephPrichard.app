@@ -18,21 +18,22 @@ const IndexPage: NextPage<Props> = ({ projects }: Props) => {
             <NextSeo title="Home | Joseph Prichard"/>
             <TopBanner/>
             <div className="Display">
-                {/*<AnimatedTitle finalText="Hi, I'm Joseph Prichard!"/>*/}
-                <h1>
-                    Hi, I'm Joseph Prichard!
-                </h1>
-                <h3>
-                    I'm a Software Engineer and Computer Scientist attending University of Texas at Dallas as a Junior.
-                </h3>
-                <p>
-                    I've been a passionate programmer and an avid follower of technology for 4+ years.
-                    I'm interested in many topics ranging from web applications to computer theory to database systems.
-                    I also love learning new languages and programming paradigms!
-                </p>
-                <p>
-                    This website is a portfolio to showcase the projects I've created, and the tech stack I keep up to date on!
-                </p>
+                <div className="Wrapper">
+                    <h1>
+                        Hi, I'm Joseph Prichard!
+                    </h1>
+                    <h3>
+                        I'm a Software Engineer and Computer Scientist attending University of Texas at Dallas as a Junior.
+                    </h3>
+                    <p>
+                        I've been a passionate programmer and an avid follower of technology for 4+ years.
+                        I'm interested in many topics ranging from web applications to computer theory to database systems.
+                        I also love learning new languages and programming paradigms!
+                    </p>
+                    <p>
+                        This website is a portfolio to showcase the projects I've created, and the tech stack I keep up to date on!
+                    </p>
+                </div>
                 <h2 className="Indented BufferTitle">
                     Side Projects
                 </h2>

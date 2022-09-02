@@ -219,12 +219,12 @@ a {
     margin-bottom: 10px;
 }
 
-.ProjectLinks {
+.ProjectBottom {
     margin-top: auto;
 }
 
 .ProjectTags {
-    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .ProjectTag {
@@ -238,12 +238,13 @@ a {
     border-style: solid;
     border-color: rgb(90,90,90);
     width: fit-content;
+    font-size: 14px;
 }
 
 .LinkButton {
     display: inline-block;
     margin-top: 15px;
-    margin-right: 15px;
+    margin-right: 5px;
     padding: 7px 10px;
     border-radius: 4px;
     background-color: rgb(50,54,59);
@@ -288,26 +289,7 @@ a {
     box-shadow: 0 0 10px rgb(20,20,20);
 }
 
-@keyframes blink {
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.AnimatedTitleCursor {
-    content: "";
-    width: 4px;
-    height: 32px;
-    display: inline-block;
-    background-color: rgb(225,225,225);
-    animation: blink 1s linear infinite alternate;
-}
-
-.AnimatedTitle {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+.Wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
 }
