@@ -9,10 +9,8 @@ export const groups: SkillGroup[] = [
             "Next.js",
             "HTML/CSS",
             "React Router",
-            "Mantine",
-            "JavaFx",
-            "Swing",
-            "JSP"
+            "JSP",
+            "JavaFx"
         ]
     },
     {
@@ -23,11 +21,10 @@ export const groups: SkillGroup[] = [
             "Nest.js",
             "Express.js",
             "Spring Boot",
-            "Java EE",
-            "Servlets",
             "JPA",
             "Hibernate",
-            "Jdbc"
+            "Jdbc",
+            "Servlets"
         ]
     },
     {
