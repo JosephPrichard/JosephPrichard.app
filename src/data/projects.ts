@@ -11,7 +11,7 @@ export const projects: Project[] = [
     {
         title: "OthelloBot",
         year: "2022-06-01",
-        desc: "A Discord bot for users to play Othello against other players or an AI.",
+        desc: "A Discord bot for users to play Othello against other players or the computer.",
         source: "https://github.com/JosephPrichard/OthelloBot",
         demo: "/othello-bot-demo",
         tags: ["Java", "Hibernate", "SQL"]

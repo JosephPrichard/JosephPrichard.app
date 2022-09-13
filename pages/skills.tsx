@@ -22,7 +22,7 @@ const SkillPage: NextPage<Props> = ({ groups }: Props) => {
                 </h1>
                 <p className="CenteredText SkillText">
                     Motivated and skillful Software Engineer with experience in
-                    backend development, frontend development, databases, and computer theory.
+                    frontend development, backend development, databases, and computer theory.
                     Adaptive team-player with the ability to develop maintainable
                     yet efficient solutions.
                     I love learning about new technologies and programming languages!
