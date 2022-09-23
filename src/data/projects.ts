@@ -9,20 +9,20 @@ export const projects: Project[] = [
         tags: ["Typescript", "React", "Next.js", "Nest.js", "SQL"]
     },
     {
-        title: "OthelloBot",
-        year: "2022-06-01",
-        desc: "A Discord bot for users to play Othello against other players or the computer.",
-        source: "https://github.com/JosephPrichard/OthelloBot",
-        demo: "/othello-bot-demo",
-        tags: ["Java", "Hibernate", "SQL"]
-    },
-    {
         title: "Pathfinder",
         year: "2021-02-01",
         desc: "An educational website to visualize pathfinding algorithms on 2D terrain.",
         source: "https://github.com/JosephPrichard/Pathfinder",
         demo: "https://josephprichard.github.io/Pathfinder",
         tags: ["Typescript", "React"]
+    },
+    {
+        title: "OthelloBot",
+        year: "2022-06-01",
+        desc: "A Discord bot for users to play Othello against other players or the computer.",
+        source: "https://github.com/JosephPrichard/OthelloBot",
+        demo: "/othello-bot-demo",
+        tags: ["Java", "Hibernate", "SQL"]
     },
     {
         title: "ChessLite",
