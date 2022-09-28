@@ -8,7 +8,6 @@ export const groups: SkillGroup[] = [
             "React",
             "Next.js",
             "HTML/CSS",
-            "Yew",
             "JSP",
             "JavaFx"
         ]
@@ -23,8 +22,7 @@ export const groups: SkillGroup[] = [
             "Rocket",
             "Spring Boot",
             "Java EE",
-            "Hibernate",
-            "FastAPI"
+            "Hibernate"
         ]
     },
     {
@@ -33,8 +31,8 @@ export const groups: SkillGroup[] = [
         skills: [
             "Typescript",
             "Javascript",
-            "Rust",
             "Java",
+            "Rust",
             "Python",
             "C/C++",
             "C#"
