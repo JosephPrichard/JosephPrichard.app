@@ -28,6 +28,8 @@ const ProjectPanel = ({ project }: Props) => {
                         );
                     })}
                 </div>
+            </div>
+            <div>
                 {!project.source || <ButtonLink href={project.source} title="Source"/>}
                 {!project.demo || <ButtonLink href={project.demo} title="Demo"/>}
             </div>
